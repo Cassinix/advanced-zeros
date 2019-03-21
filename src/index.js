@@ -10,12 +10,6 @@ module.exports = function getZerosCount(number, base) {
         }
       }
     }
-    if (number === 72300914) {
-      return 2;
-    }
-      else if (number === 19848293) {
-        return 2;
-      }
     return result;
   }
 
@@ -47,5 +41,5 @@ module.exports = function getZerosCount(number, base) {
  console.log('primeFactorization = ', primeFactorization(base));
  console.log('maxPrimeFactorization = ', devisior, acc);
  console.log('result = ', result);
-  return Math.floor(result + 0.01);
+  return Math.floor(result);
 }
